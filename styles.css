@@ -96,5 +96,8 @@ h6 {
 }
 
 body {
-  background-color: red;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-neutral-900);
 }
