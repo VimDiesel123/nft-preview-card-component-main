@@ -20,23 +20,28 @@
 </head>
 
 <body>
-  <main>
-    <article>
-      <img src="./images/image-equilibrium.jpg" alt="">
-      <h1>Equilibrium #3429</h1>
+  <main class="grid">
+    <article class="card">
+      <div class="card__image clickable">
+        <img src="./images/image-equilibrium.jpg" alt="" class="card__image__content">
+      </div>
+      <h1 class="clickable--text">Equilibrium #3429</h1>
 
-      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <p class="text--muted">Our Equilibrium collection promotes balance and calm.</p>
 
       <div class="buy-info">
-        <span><img src="./images/icon-ethereum.svg" alt="">0.041 ETH</span>
-        <span><img src="./images/icon-clock.svg" alt="">3 days left</span>
+        <span class="buy-info__item buy-info__item--price"><img src="./images/icon-ethereum.svg" alt="">0.041 ETH</span>
+        <span class="buy-info__item text--muted"><img src="./images/icon-clock.svg" alt="">3 days left</span>
       </div>
 
       <hr>
 
       <div class="creator">
-        <img src="./images/image-avatar.png" alt="">
-        <span>Creation of</span> Jules Wyvern
+        <img src="./images/image-avatar.png" alt="" class="creator__avatar">
+        <p class="creator__text">
+          <span class="text--muted">Creation of </span>
+          <span class="clickable--text">Jules Wyvern</span>
+        <p>
       </div>
 
     </article>
